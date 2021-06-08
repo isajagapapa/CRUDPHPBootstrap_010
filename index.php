@@ -26,10 +26,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="create.php">Tambah Mahasiswa</a>
+                        <a class="nav-link active" aria-current="page" href="store.php">Tambah Mahasiswa</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Features</a>
@@ -114,9 +113,9 @@
                             <td><?php echo $data['alamat']; ?></td>
 
                             <td>
-                                <a href="edit.php?id=<?php echo $data ["id"]; ?>" class="btn btn-warning btn-sm text-white">EDIT</a>
-
-                                <a href="delete.php?id=<?php echo $data ["id"]; ?>" class="btn btn-danger btn-sm" onclick="return confirm ('Anda Yakin Akan Menghapus DAta Mahasiswa Ini?')">HAPUS</a>
+                                <a href="detail.php?id=<?php echo $data ['id']; ?>" class="btn btn-success btn-sm text-white">DETAIL</a>
+                                <a href="edit.php?id=<?php echo $data ['id']; ?>" class="btn btn-warning btn-sm text-white">EDIT</a>
+                                <a href="delete.php?id=<?php echo $data ['id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm ('Anda Yakin Akan Menghapus DAta Mahasiswa Ini?')">HAPUS</a>
                             </td>
                         </tr>
 
