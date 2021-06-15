@@ -53,7 +53,7 @@
                     <!-- Membuat form dengan method post untuk memanggil file store.php -->
                     <form method="post" action="store.php" name="form">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Tambah Data</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
@@ -115,7 +115,7 @@
                             <td>
                                 <a href="detail.php?id=<?php echo $data ['id']; ?>" class="btn btn-success btn-sm text-white">DETAIL</a>
                                 <a href="edit.php?id=<?php echo $data ['id']; ?>" class="btn btn-warning btn-sm text-white">EDIT</a>
-                                <a href="delete.php?id=<?php echo $data ['id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm ('Anda Yakin Akan Menghapus DAta Mahasiswa Ini?')">HAPUS</a>
+                                <a href="delete.php?id=<?php echo $data ['id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm ('Anda Yakin Akan Menghapus Data Mahasiswa Ini?')">HAPUS</a>
                             </td>
                         </tr>
 
